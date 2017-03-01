@@ -1,0 +1,17 @@
+{application, genecpubkey, [
+    {description, "Generate PEM file with EC Public key from EC Private key"},
+    {vsn, "0"},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib,
+        public_key
+    ]},
+    {env, []},
+    {modules, []},
+    {maintainers, [
+        "Andrew Mayorov <a.mayorov@rbkmoney.com>"
+    ]},
+    {licenses, []},
+    {links, []}
+]}.
